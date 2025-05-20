@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from interface_pkg1/msg/Message1.msg
+// generated code does not contain a copyright notice
+
+
+module interface_pkg1 {
+  module msg {
+    struct Message1 {
+      int64 num;
+    };
+  };
+};

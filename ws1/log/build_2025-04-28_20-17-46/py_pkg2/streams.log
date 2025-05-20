@@ -1,0 +1,42 @@
+[0.823s] Invoking command in '/home/hawx/ws1/src/py_pkg2': PYTHONPATH=/home/hawx/ws1/build/py_pkg2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hawx/ws1/install/py_pkg2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pkg2 build --build-base /home/hawx/ws1/build/py_pkg2/build install --record /home/hawx/ws1/build/py_pkg2/install.log --single-version-externally-managed install_data
+[0.954s] running egg_info
+[0.954s] creating ../../build/py_pkg2/py_pkg2.egg-info
+[0.955s] writing ../../build/py_pkg2/py_pkg2.egg-info/PKG-INFO
+[0.955s] writing dependency_links to ../../build/py_pkg2/py_pkg2.egg-info/dependency_links.txt
+[0.955s] writing entry points to ../../build/py_pkg2/py_pkg2.egg-info/entry_points.txt
+[0.955s] writing requirements to ../../build/py_pkg2/py_pkg2.egg-info/requires.txt
+[0.955s] writing top-level names to ../../build/py_pkg2/py_pkg2.egg-info/top_level.txt
+[0.955s] writing manifest file '../../build/py_pkg2/py_pkg2.egg-info/SOURCES.txt'
+[0.956s] reading manifest file '../../build/py_pkg2/py_pkg2.egg-info/SOURCES.txt'
+[0.956s] adding license file 'LICENSE'
+[0.956s] writing manifest file '../../build/py_pkg2/py_pkg2.egg-info/SOURCES.txt'
+[0.956s] running build
+[0.956s] running build_py
+[0.956s] creating /home/hawx/ws1/build/py_pkg2/build
+[0.956s] creating /home/hawx/ws1/build/py_pkg2/build/lib
+[0.956s] creating /home/hawx/ws1/build/py_pkg2/build/lib/py_pkg2
+[0.956s] copying py_pkg2/cli_node1.py -> /home/hawx/ws1/build/py_pkg2/build/lib/py_pkg2
+[0.956s] copying py_pkg2/srv_node1.py -> /home/hawx/ws1/build/py_pkg2/build/lib/py_pkg2
+[0.957s] copying py_pkg2/__init__.py -> /home/hawx/ws1/build/py_pkg2/build/lib/py_pkg2
+[0.957s] running install
+[0.957s] running install_lib
+[0.957s] creating /home/hawx/ws1/install/py_pkg2/lib/python3.10/site-packages/py_pkg2
+[0.957s] copying /home/hawx/ws1/build/py_pkg2/build/lib/py_pkg2/cli_node1.py -> /home/hawx/ws1/install/py_pkg2/lib/python3.10/site-packages/py_pkg2
+[0.957s] copying /home/hawx/ws1/build/py_pkg2/build/lib/py_pkg2/srv_node1.py -> /home/hawx/ws1/install/py_pkg2/lib/python3.10/site-packages/py_pkg2
+[0.957s] copying /home/hawx/ws1/build/py_pkg2/build/lib/py_pkg2/__init__.py -> /home/hawx/ws1/install/py_pkg2/lib/python3.10/site-packages/py_pkg2
+[0.958s] byte-compiling /home/hawx/ws1/install/py_pkg2/lib/python3.10/site-packages/py_pkg2/cli_node1.py to cli_node1.cpython-310.pyc
+[0.958s] byte-compiling /home/hawx/ws1/install/py_pkg2/lib/python3.10/site-packages/py_pkg2/srv_node1.py to srv_node1.cpython-310.pyc
+[0.958s] byte-compiling /home/hawx/ws1/install/py_pkg2/lib/python3.10/site-packages/py_pkg2/__init__.py to __init__.cpython-310.pyc
+[0.958s] running install_data
+[0.958s] creating /home/hawx/ws1/install/py_pkg2/share/ament_index
+[0.958s] creating /home/hawx/ws1/install/py_pkg2/share/ament_index/resource_index
+[0.958s] creating /home/hawx/ws1/install/py_pkg2/share/ament_index/resource_index/packages
+[0.958s] copying resource/py_pkg2 -> /home/hawx/ws1/install/py_pkg2/share/ament_index/resource_index/packages
+[0.959s] copying package.xml -> /home/hawx/ws1/install/py_pkg2/share/py_pkg2
+[0.959s] running install_egg_info
+[0.960s] Copying ../../build/py_pkg2/py_pkg2.egg-info to /home/hawx/ws1/install/py_pkg2/lib/python3.10/site-packages/py_pkg2-0.0.0-py3.10.egg-info
+[0.960s] running install_scripts
+[0.971s] Installing client1 script to /home/hawx/ws1/install/py_pkg2/lib/py_pkg2
+[0.971s] Installing server1 script to /home/hawx/ws1/install/py_pkg2/lib/py_pkg2
+[0.971s] writing list of installed files to '/home/hawx/ws1/build/py_pkg2/install.log'
+[0.984s] Invoked command in '/home/hawx/ws1/src/py_pkg2' returned '0': PYTHONPATH=/home/hawx/ws1/build/py_pkg2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hawx/ws1/install/py_pkg2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pkg2 build --build-base /home/hawx/ws1/build/py_pkg2/build install --record /home/hawx/ws1/build/py_pkg2/install.log --single-version-externally-managed install_data

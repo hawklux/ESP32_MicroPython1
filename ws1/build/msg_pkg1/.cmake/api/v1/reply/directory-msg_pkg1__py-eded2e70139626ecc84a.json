@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "msg_pkg1__py",
+		"source" : "/home/hawx/ws1/build/msg_pkg1/msg_pkg1__py"
+	}
+}

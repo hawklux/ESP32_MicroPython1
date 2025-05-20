@@ -1,0 +1,307 @@
+[0.012s] Invoking command in '/home/hawx/ws1/src/build/interface_pkg1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hawx/ws1/src/interface_pkg1 -DCMAKE_INSTALL_PREFIX=/home/hawx/ws1/src/install/interface_pkg1
+[0.253s] -- The C compiler identification is GNU 11.4.0
+[0.254s] -- The CXX compiler identification is GNU 11.4.0
+[0.254s] -- Detecting C compiler ABI info
+[0.254s] -- Detecting C compiler ABI info - done
+[0.254s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.254s] -- Detecting C compile features
+[0.254s] -- Detecting C compile features - done
+[0.254s] -- Detecting CXX compiler ABI info
+[0.254s] -- Detecting CXX compiler ABI info - done
+[0.254s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.254s] -- Detecting CXX compile features
+[0.254s] -- Detecting CXX compile features - done
+[0.254s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.315s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.367s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.386s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.388s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.393s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.399s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.407s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.426s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.591s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.805s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.891s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.904s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.905s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.919s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.919s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.919s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.919s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.930s] -- Found PythonExtra: .so  
+[0.960s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.970s] -- Added test 'lint_cmake' to check CMake code style
+[0.970s] -- Added test 'xmllint' to check XML markup files
+[0.972s] -- Configuring done
+[0.993s] -- Generating done
+[1.000s] -- Build files have been written to: /home/hawx/ws1/src/build/interface_pkg1
+[1.006s] Invoked command in '/home/hawx/ws1/src/build/interface_pkg1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hawx/ws1/src/interface_pkg1 -DCMAKE_INSTALL_PREFIX=/home/hawx/ws1/src/install/interface_pkg1
+[1.007s] Invoking command in '/home/hawx/ws1/src/build/interface_pkg1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hawx/ws1/src/build/interface_pkg1 -- -j32 -l32
+[1.032s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.038s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.042s] [  4%] Built target ament_cmake_python_copy_interface_pkg1
+[1.160s] running egg_info
+[1.160s] creating interface_pkg1.egg-info
+[1.160s] writing interface_pkg1.egg-info/PKG-INFO
+[1.160s] writing dependency_links to interface_pkg1.egg-info/dependency_links.txt
+[1.160s] writing top-level names to interface_pkg1.egg-info/top_level.txt
+[1.160s] writing manifest file 'interface_pkg1.egg-info/SOURCES.txt'
+[1.161s] reading manifest file 'interface_pkg1.egg-info/SOURCES.txt'
+[1.162s] writing manifest file 'interface_pkg1.egg-info/SOURCES.txt'
+[1.176s] [  4%] Built target ament_cmake_python_build_interface_pkg1_egg
+[1.214s] [  4%] Built target interface_pkg1__cpp
+[1.220s] [  8%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.220s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.220s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.221s] [ 12%] [32mBuilding C object CMakeFiles/interface_pkg1__rosidl_generator_c.dir/rosidl_generator_c/interface_pkg1/msg/detail/message1__functions.c.o[0m
+[1.222s] [ 14%] [32mBuilding C object CMakeFiles/interface_pkg1__rosidl_generator_c.dir/rosidl_generator_c/interface_pkg1/msg/detail/message2__functions.c.o[0m
+[1.222s] [ 17%] [32mBuilding C object CMakeFiles/interface_pkg1__rosidl_generator_c.dir/rosidl_generator_c/interface_pkg1/srv/detail/service1__functions.c.o[0m
+[1.261s] [ 19%] [32m[1mLinking C shared library libinterface_pkg1__rosidl_generator_c.so[0m
+[1.285s] [ 19%] Built target interface_pkg1__rosidl_generator_c
+[1.291s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.291s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.293s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.358s] [ 27%] [32mBuilding CXX object CMakeFiles/interface_pkg1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_pkg1/msg/message1__type_support.cpp.o[0m
+[1.359s] [ 29%] [32mBuilding CXX object CMakeFiles/interface_pkg1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_pkg1/srv/service1__type_support.cpp.o[0m
+[1.359s] [ 31%] [32mBuilding CXX object CMakeFiles/interface_pkg1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_pkg1/msg/message2__type_support.cpp.o[0m
+[1.375s] [ 34%] [32mBuilding CXX object CMakeFiles/interface_pkg1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_pkg1/msg/detail/message1__type_support.cpp.o[0m
+[1.375s] [ 38%] [32mBuilding CXX object CMakeFiles/interface_pkg1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_pkg1/msg/detail/message2__type_support.cpp.o[0m
+[1.375s] [ 38%] [32mBuilding CXX object CMakeFiles/interface_pkg1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_pkg1/srv/detail/service1__type_support.cpp.o[0m
+[1.389s] [ 40%] [32mBuilding CXX object CMakeFiles/interface_pkg1__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_pkg1/msg/detail/dds_fastrtps/message1__type_support.cpp.o[0m
+[1.389s] [ 42%] [32mBuilding CXX object CMakeFiles/interface_pkg1__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_pkg1/srv/detail/dds_fastrtps/service1__type_support.cpp.o[0m
+[1.390s] [ 44%] [32mBuilding CXX object CMakeFiles/interface_pkg1__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_pkg1/msg/detail/dds_fastrtps/message2__type_support.cpp.o[0m
+[1.432s] [ 46%] [32mBuilding CXX object CMakeFiles/interface_pkg1__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_pkg1/srv/service1__type_support.cpp.o[0m
+[1.432s] [ 51%] [32mBuilding CXX object CMakeFiles/interface_pkg1__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_pkg1/msg/message2__type_support.cpp.o[0m
+[1.433s] [ 51%] [32mBuilding CXX object CMakeFiles/interface_pkg1__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_pkg1/msg/message1__type_support.cpp.o[0m
+[1.456s] [ 53%] [32m[1mLinking CXX shared library libinterface_pkg1__rosidl_typesupport_c.so[0m
+[1.462s] [ 55%] [32mBuilding C object CMakeFiles/interface_pkg1__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_pkg1/msg/detail/message2__type_support.c.o[0m
+[1.462s] [ 59%] [32mBuilding C object CMakeFiles/interface_pkg1__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_pkg1/msg/detail/message1__type_support.c.o[0m
+[1.462s] [ 59%] [32mBuilding C object CMakeFiles/interface_pkg1__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_pkg1/srv/detail/service1__type_support.c.o[0m
+[1.462s] [ 61%] [32mBuilding CXX object CMakeFiles/interface_pkg1__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_pkg1/msg/detail/message2__type_support_c.cpp.o[0m
+[1.462s] [ 63%] [32mBuilding CXX object CMakeFiles/interface_pkg1__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_pkg1/msg/detail/message1__type_support_c.cpp.o[0m
+[1.462s] [ 65%] [32mBuilding CXX object CMakeFiles/interface_pkg1__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_pkg1/srv/detail/service1__type_support_c.cpp.o[0m
+[1.485s] [ 65%] Built target interface_pkg1__rosidl_typesupport_c
+[1.486s] [ 68%] [32m[1mLinking C shared library libinterface_pkg1__rosidl_typesupport_introspection_c.so[0m
+[1.511s] [ 68%] Built target interface_pkg1__rosidl_typesupport_introspection_c
+[1.536s] [ 70%] [32m[1mLinking CXX shared library libinterface_pkg1__rosidl_typesupport_cpp.so[0m
+[1.564s] [ 70%] Built target interface_pkg1__rosidl_typesupport_cpp
+[1.599s] [ 72%] [32m[1mLinking CXX shared library libinterface_pkg1__rosidl_typesupport_introspection_cpp.so[0m
+[1.621s] [ 74%] [32m[1mLinking CXX shared library libinterface_pkg1__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.640s] [ 74%] Built target interface_pkg1__rosidl_typesupport_introspection_cpp
+[1.645s] [ 76%] [32m[1mLinking CXX shared library libinterface_pkg1__rosidl_typesupport_fastrtps_c.so[0m
+[1.666s] [ 76%] Built target interface_pkg1__rosidl_typesupport_fastrtps_cpp
+[1.691s] [ 76%] Built target interface_pkg1__rosidl_typesupport_fastrtps_c
+[1.704s] [ 76%] Built target interface_pkg1
+[1.717s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.954s] [ 78%] Built target interface_pkg1__py
+[1.966s] [ 85%] [32mBuilding C object CMakeFiles/interface_pkg1__rosidl_generator_py.dir/rosidl_generator_py/interface_pkg1/msg/_message2_s.c.o[0m
+[1.967s] [ 85%] [32mBuilding C object CMakeFiles/interface_pkg1__rosidl_generator_py.dir/rosidl_generator_py/interface_pkg1/srv/_service1_s.c.o[0m
+[1.967s] [ 85%] [32mBuilding C object CMakeFiles/interface_pkg1__rosidl_generator_py.dir/rosidl_generator_py/interface_pkg1/msg/_message1_s.c.o[0m
+[2.035s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/interface_pkg1/libinterface_pkg1__rosidl_generator_py.so[0m
+[2.059s] [ 87%] Built target interface_pkg1__rosidl_generator_py
+[2.072s] [ 89%] [32mBuilding C object CMakeFiles/interface_pkg1__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interface_pkg1/_interface_pkg1_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.072s] [ 91%] [32mBuilding C object CMakeFiles/interface_pkg1__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interface_pkg1/_interface_pkg1_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.073s] [ 93%] [32mBuilding C object CMakeFiles/interface_pkg1__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interface_pkg1/_interface_pkg1_s.ep.rosidl_typesupport_c.c.o[0m
+[2.133s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/interface_pkg1/interface_pkg1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.134s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interface_pkg1/interface_pkg1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.134s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interface_pkg1/interface_pkg1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.157s] [100%] Built target interface_pkg1__rosidl_typesupport_introspection_c__pyext
+[2.157s] [100%] Built target interface_pkg1__rosidl_typesupport_c__pyext
+[2.159s] [100%] Built target interface_pkg1__rosidl_typesupport_fastrtps_c__pyext
+[2.167s] Invoked command in '/home/hawx/ws1/src/build/interface_pkg1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hawx/ws1/src/build/interface_pkg1 -- -j32 -l32
+[2.172s] Invoking command in '/home/hawx/ws1/src/build/interface_pkg1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hawx/ws1/src/build/interface_pkg1
+[2.177s] -- Install configuration: ""
+[2.177s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/ament_index/resource_index/rosidl_interfaces/interface_pkg1
+[2.177s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1
+[2.177s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg
+[2.177s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/message2.h
+[2.177s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/rosidl_generator_c__visibility_control.h
+[2.178s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/message1.h
+[2.178s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail
+[2.178s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail/message1__type_support.h
+[2.178s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail/message2__functions.c
+[2.178s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail/message2__type_support.h
+[2.178s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail/message2__struct.h
+[2.178s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail/message1__functions.h
+[2.178s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail/message1__struct.h
+[2.178s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail/message1__functions.c
+[2.178s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail/message2__functions.h
+[2.178s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/srv
+[2.178s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/srv/service1.h
+[2.178s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/srv/detail
+[2.178s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/srv/detail/service1__functions.c
+[2.178s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/srv/detail/service1__struct.h
+[2.179s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/srv/detail/service1__functions.h
+[2.179s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/srv/detail/service1__type_support.h
+[2.179s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/environment/library_path.sh
+[2.179s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/environment/library_path.dsv
+[2.179s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/lib/libinterface_pkg1__rosidl_generator_c.so
+[2.179s] -- Set runtime path of "/home/hawx/ws1/src/install/interface_pkg1/lib/libinterface_pkg1__rosidl_generator_c.so" to ""
+[2.179s] -- Up-to-date: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1
+[2.179s] -- Up-to-date: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg
+[2.179s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.179s] -- Up-to-date: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail
+[2.180s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail/message1__rosidl_typesupport_fastrtps_c.h
+[2.180s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail/message2__rosidl_typesupport_fastrtps_c.h
+[2.180s] -- Up-to-date: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/srv
+[2.180s] -- Up-to-date: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/srv/detail
+[2.180s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/srv/detail/service1__rosidl_typesupport_fastrtps_c.h
+[2.180s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/lib/libinterface_pkg1__rosidl_typesupport_fastrtps_c.so
+[2.180s] -- Set runtime path of "/home/hawx/ws1/src/install/interface_pkg1/lib/libinterface_pkg1__rosidl_typesupport_fastrtps_c.so" to ""
+[2.180s] -- Up-to-date: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1
+[2.180s] -- Up-to-date: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg
+[2.180s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/message2.hpp
+[2.180s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/message1.hpp
+[2.180s] -- Up-to-date: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail
+[2.180s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail/message2__struct.hpp
+[2.180s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail/message2__type_support.hpp
+[2.180s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail/message1__traits.hpp
+[2.181s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail/message1__type_support.hpp
+[2.181s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail/message1__builder.hpp
+[2.181s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail/message2__traits.hpp
+[2.181s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail/message1__struct.hpp
+[2.181s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail/message2__builder.hpp
+[2.181s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.181s] -- Up-to-date: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/srv
+[2.181s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/srv/service1.hpp
+[2.181s] -- Up-to-date: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/srv/detail
+[2.181s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/srv/detail/service1__traits.hpp
+[2.181s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/srv/detail/service1__struct.hpp
+[2.181s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/srv/detail/service1__builder.hpp
+[2.181s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/srv/detail/service1__type_support.hpp
+[2.181s] -- Up-to-date: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1
+[2.181s] -- Up-to-date: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg
+[2.181s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.182s] -- Up-to-date: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail
+[2.182s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail/message2__rosidl_typesupport_fastrtps_cpp.hpp
+[2.182s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail/message1__rosidl_typesupport_fastrtps_cpp.hpp
+[2.182s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail/dds_fastrtps
+[2.182s] -- Up-to-date: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/srv
+[2.182s] -- Up-to-date: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/srv/detail
+[2.182s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/srv/detail/dds_fastrtps
+[2.182s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/srv/detail/service1__rosidl_typesupport_fastrtps_cpp.hpp
+[2.182s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/lib/libinterface_pkg1__rosidl_typesupport_fastrtps_cpp.so
+[2.182s] -- Set runtime path of "/home/hawx/ws1/src/install/interface_pkg1/lib/libinterface_pkg1__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.182s] -- Up-to-date: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1
+[2.182s] -- Up-to-date: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg
+[2.182s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.182s] -- Up-to-date: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail
+[2.182s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail/message2__type_support.c
+[2.182s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail/message1__rosidl_typesupport_introspection_c.h
+[2.183s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail/message2__rosidl_typesupport_introspection_c.h
+[2.183s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail/message1__type_support.c
+[2.183s] -- Up-to-date: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/srv
+[2.183s] -- Up-to-date: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/srv/detail
+[2.183s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/srv/detail/service1__rosidl_typesupport_introspection_c.h
+[2.183s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/srv/detail/service1__type_support.c
+[2.183s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/lib/libinterface_pkg1__rosidl_typesupport_introspection_c.so
+[2.183s] -- Set runtime path of "/home/hawx/ws1/src/install/interface_pkg1/lib/libinterface_pkg1__rosidl_typesupport_introspection_c.so" to ""
+[2.183s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/lib/libinterface_pkg1__rosidl_typesupport_c.so
+[2.183s] -- Set runtime path of "/home/hawx/ws1/src/install/interface_pkg1/lib/libinterface_pkg1__rosidl_typesupport_c.so" to ""
+[2.183s] -- Up-to-date: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1
+[2.183s] -- Up-to-date: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg
+[2.183s] -- Up-to-date: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail
+[2.184s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail/message1__type_support.cpp
+[2.184s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail/message1__rosidl_typesupport_introspection_cpp.hpp
+[2.184s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail/message2__type_support.cpp
+[2.184s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/msg/detail/message2__rosidl_typesupport_introspection_cpp.hpp
+[2.184s] -- Up-to-date: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/srv
+[2.184s] -- Up-to-date: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/srv/detail
+[2.184s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/srv/detail/service1__rosidl_typesupport_introspection_cpp.hpp
+[2.184s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/include/interface_pkg1/interface_pkg1/srv/detail/service1__type_support.cpp
+[2.184s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/lib/libinterface_pkg1__rosidl_typesupport_introspection_cpp.so
+[2.184s] -- Set runtime path of "/home/hawx/ws1/src/install/interface_pkg1/lib/libinterface_pkg1__rosidl_typesupport_introspection_cpp.so" to ""
+[2.184s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/lib/libinterface_pkg1__rosidl_typesupport_cpp.so
+[2.184s] -- Set runtime path of "/home/hawx/ws1/src/install/interface_pkg1/lib/libinterface_pkg1__rosidl_typesupport_cpp.so" to ""
+[2.185s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/environment/pythonpath.sh
+[2.185s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/environment/pythonpath.dsv
+[2.185s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1-0.0.0-py3.10.egg-info
+[2.185s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.185s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.185s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1-0.0.0-py3.10.egg-info/PKG-INFO
+[2.185s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1-0.0.0-py3.10.egg-info/top_level.txt
+[2.185s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1
+[2.185s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1/interface_pkg1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.185s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1/interface_pkg1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.185s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1/_interface_pkg1_s.ep.rosidl_typesupport_c.c
+[2.185s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1/interface_pkg1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.185s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1/msg
+[2.186s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1/msg/_message2_s.c
+[2.186s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1/msg/_message1.py
+[2.186s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1/msg/_message2.py
+[2.186s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1/msg/__init__.py
+[2.186s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1/msg/_message1_s.c
+[2.186s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1/_interface_pkg1_s.ep.rosidl_typesupport_introspection_c.c
+[2.186s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1/srv
+[2.186s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1/srv/_service1_s.c
+[2.186s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1/srv/_service1.py
+[2.186s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1/srv/__init__.py
+[2.186s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1/_interface_pkg1_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.186s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1/__init__.py
+[2.186s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1/libinterface_pkg1__rosidl_generator_py.so
+[2.206s] Listing '/home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1'...
+[2.206s] Compiling '/home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1/__init__.py'...
+[2.206s] Listing '/home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1/msg'...
+[2.206s] Compiling '/home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1/msg/__init__.py'...
+[2.206s] Compiling '/home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1/msg/_message1.py'...
+[2.206s] Compiling '/home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1/msg/_message2.py'...
+[2.206s] Listing '/home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1/srv'...
+[2.206s] Compiling '/home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1/srv/__init__.py'...
+[2.206s] Compiling '/home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1/srv/_service1.py'...
+[2.208s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1/interface_pkg1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.208s] -- Set runtime path of "/home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1/interface_pkg1_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.209s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1/interface_pkg1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.209s] -- Set runtime path of "/home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1/interface_pkg1_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.209s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1/interface_pkg1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.209s] -- Set runtime path of "/home/hawx/ws1/src/install/interface_pkg1/local/lib/python3.10/dist-packages/interface_pkg1/interface_pkg1_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.209s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/lib/libinterface_pkg1__rosidl_generator_py.so
+[2.209s] -- Set runtime path of "/home/hawx/ws1/src/install/interface_pkg1/lib/libinterface_pkg1__rosidl_generator_py.so" to ""
+[2.209s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/msg/Message1.idl
+[2.210s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/msg/Message2.idl
+[2.210s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/srv/Service1.idl
+[2.210s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/msg/Message1.msg
+[2.210s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/msg/Message2.msg
+[2.210s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/srv/Service1.srv
+[2.210s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/srv/Service1_Request.msg
+[2.210s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/srv/Service1_Response.msg
+[2.210s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/ament_index/resource_index/package_run_dependencies/interface_pkg1
+[2.210s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/ament_index/resource_index/parent_prefix_path/interface_pkg1
+[2.210s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/environment/ament_prefix_path.sh
+[2.211s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/environment/ament_prefix_path.dsv
+[2.211s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/environment/path.sh
+[2.211s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/environment/path.dsv
+[2.211s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/local_setup.bash
+[2.211s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/local_setup.sh
+[2.211s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/local_setup.zsh
+[2.211s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/local_setup.dsv
+[2.211s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/package.dsv
+[2.211s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/ament_index/resource_index/packages/interface_pkg1
+[2.211s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/cmake/export_interface_pkg1__rosidl_generator_cExport.cmake
+[2.211s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/cmake/export_interface_pkg1__rosidl_generator_cExport-noconfig.cmake
+[2.212s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/cmake/export_interface_pkg1__rosidl_typesupport_fastrtps_cExport.cmake
+[2.212s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/cmake/export_interface_pkg1__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.212s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/cmake/export_interface_pkg1__rosidl_generator_cppExport.cmake
+[2.212s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/cmake/export_interface_pkg1__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.212s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/cmake/export_interface_pkg1__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.212s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/cmake/interface_pkg1__rosidl_typesupport_introspection_cExport.cmake
+[2.212s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/cmake/interface_pkg1__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.212s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/cmake/interface_pkg1__rosidl_typesupport_cExport.cmake
+[2.212s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/cmake/interface_pkg1__rosidl_typesupport_cExport-noconfig.cmake
+[2.212s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/cmake/interface_pkg1__rosidl_typesupport_introspection_cppExport.cmake
+[2.213s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/cmake/interface_pkg1__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.213s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/cmake/interface_pkg1__rosidl_typesupport_cppExport.cmake
+[2.213s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/cmake/interface_pkg1__rosidl_typesupport_cppExport-noconfig.cmake
+[2.213s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/cmake/export_interface_pkg1__rosidl_generator_pyExport.cmake
+[2.213s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/cmake/export_interface_pkg1__rosidl_generator_pyExport-noconfig.cmake
+[2.213s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/cmake/rosidl_cmake-extras.cmake
+[2.213s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.213s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.213s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/cmake/ament_cmake_export_libraries-extras.cmake
+[2.213s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/cmake/ament_cmake_export_targets-extras.cmake
+[2.213s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.213s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.214s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/cmake/interface_pkg1Config.cmake
+[2.214s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/cmake/interface_pkg1Config-version.cmake
+[2.214s] -- Installing: /home/hawx/ws1/src/install/interface_pkg1/share/interface_pkg1/package.xml
+[2.216s] Invoked command in '/home/hawx/ws1/src/build/interface_pkg1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hawx/ws1/src/build/interface_pkg1

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "interface_pkg1__py",
+		"source" : "/home/hawx/ws1/build/interface_pkg1__py"
+	}
+}

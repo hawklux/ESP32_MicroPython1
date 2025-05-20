@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1468d7ef9d17429a4654.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "interface_pkg1__py",
+					"jsonFile" : "directory-interface_pkg1__py-62b5a62563ba7480b99f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/hawx/ws1/build/interface_pkg1/interface_pkg1__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "interface_pkg1",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_interface_pkg1_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_interface_pkg1_egg-e7979f449b874ddf9999.json",
+					"name" : "ament_cmake_python_build_interface_pkg1_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_interface_pkg1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_interface_pkg1-96ff5397cead014b1872.json",
+					"name" : "ament_cmake_python_copy_interface_pkg1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interface_pkg1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interface_pkg1-d3ae8b7d9ec99d51260b.json",
+					"name" : "interface_pkg1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interface_pkg1__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interface_pkg1__cpp-d2ec656177b7f14c4285.json",
+					"name" : "interface_pkg1__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "interface_pkg1__py::@24d3ff7bb348bb9dac4b",
+					"jsonFile" : "target-interface_pkg1__py-a994ec23e671dce57ee5.json",
+					"name" : "interface_pkg1__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interface_pkg1__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interface_pkg1__rosidl_generator_c-554680a879c974eea4de.json",
+					"name" : "interface_pkg1__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interface_pkg1__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interface_pkg1__rosidl_generator_py-3cf0e53bd7bd5cf9b204.json",
+					"name" : "interface_pkg1__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interface_pkg1__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interface_pkg1__rosidl_typesupport_c-3599e46c572efdf5af4f.json",
+					"name" : "interface_pkg1__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interface_pkg1__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interface_pkg1__rosidl_typesupport_c__pyext-600f43187dccef5f74ad.json",
+					"name" : "interface_pkg1__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interface_pkg1__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interface_pkg1__rosidl_typesupport_cpp-6b4ecbd0b20b6f68aa52.json",
+					"name" : "interface_pkg1__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interface_pkg1__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interface_pkg1__rosidl_typesupport_fastrtps_c-8b5c2d4898c3b5d140e1.json",
+					"name" : "interface_pkg1__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interface_pkg1__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interface_pkg1__rosidl_typesupport_fastrtps_c__pyext-42e2af20e7858c39c395.json",
+					"name" : "interface_pkg1__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interface_pkg1__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interface_pkg1__rosidl_typesupport_fastrtps_cpp-74a6b88f24c8aabcb340.json",
+					"name" : "interface_pkg1__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interface_pkg1__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interface_pkg1__rosidl_typesupport_introspection_c-19da9e136ac2769db56e.json",
+					"name" : "interface_pkg1__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interface_pkg1__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interface_pkg1__rosidl_typesupport_introspection_c__pyext-5cf26f6d9ba2642741e2.json",
+					"name" : "interface_pkg1__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interface_pkg1__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interface_pkg1__rosidl_typesupport_introspection_cpp-2bd28aba0db950dc20f7.json",
+					"name" : "interface_pkg1__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interface_pkg1_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interface_pkg1_uninstall-2e3b2e4d93ec0b7034ca.json",
+					"name" : "interface_pkg1_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4920d84f7a3651bde2a9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hawx/ws1/build/interface_pkg1",
+		"source" : "/home/hawx/ws1/src/interface_pkg1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

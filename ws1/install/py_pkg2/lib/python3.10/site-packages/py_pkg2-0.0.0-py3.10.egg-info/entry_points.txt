@@ -1,0 +1,4 @@
+[console_scripts]
+client1 = py_pkg2.cli_node1:main
+server1 = py_pkg2.srv_node1:main
+

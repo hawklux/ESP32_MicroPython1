@@ -1,0 +1,6 @@
+Invoking command in '/home/hawx/ws1/src/build/interface_pkg1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hawx/ws1/src/interface_pkg1 -DCMAKE_INSTALL_PREFIX=/home/hawx/ws1/src/install/interface_pkg1
+Invoked command in '/home/hawx/ws1/src/build/interface_pkg1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hawx/ws1/src/interface_pkg1 -DCMAKE_INSTALL_PREFIX=/home/hawx/ws1/src/install/interface_pkg1
+Invoking command in '/home/hawx/ws1/src/build/interface_pkg1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hawx/ws1/src/build/interface_pkg1 -- -j32 -l32
+Invoked command in '/home/hawx/ws1/src/build/interface_pkg1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hawx/ws1/src/build/interface_pkg1 -- -j32 -l32
+Invoking command in '/home/hawx/ws1/src/build/interface_pkg1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hawx/ws1/src/build/interface_pkg1
+Invoked command in '/home/hawx/ws1/src/build/interface_pkg1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hawx/ws1/src/build/interface_pkg1

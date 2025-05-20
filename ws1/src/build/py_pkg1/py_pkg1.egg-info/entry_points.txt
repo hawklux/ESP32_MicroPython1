@@ -1,0 +1,4 @@
+[console_scripts]
+listener1 = py_pkg1.sub_node1:main
+talker1 = py_pkg1.pub_node1:main
+

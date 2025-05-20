@@ -1,0 +1,6 @@
+{
+    "cmake.sourceDirectory": "/home/hawx/ws1/src/interface_pkg1",
+    "files.associations": {
+        "chrono": "cpp"
+    }
+}

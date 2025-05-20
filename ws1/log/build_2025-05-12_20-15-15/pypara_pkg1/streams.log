@@ -1,0 +1,22 @@
+[0.833s] Invoking command in '/home/hawx/ws1/src/pypara_pkg1': PYTHONPATH=/home/hawx/ws1/build/pypara_pkg1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hawx/ws1/install/pypara_pkg1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pypara_pkg1 build --build-base /home/hawx/ws1/build/pypara_pkg1/build install --record /home/hawx/ws1/build/pypara_pkg1/install.log --single-version-externally-managed install_data
+[0.968s] running egg_info
+[0.969s] writing ../../build/pypara_pkg1/pypara_pkg1.egg-info/PKG-INFO
+[0.969s] writing dependency_links to ../../build/pypara_pkg1/pypara_pkg1.egg-info/dependency_links.txt
+[0.969s] writing entry points to ../../build/pypara_pkg1/pypara_pkg1.egg-info/entry_points.txt
+[0.969s] writing requirements to ../../build/pypara_pkg1/pypara_pkg1.egg-info/requires.txt
+[0.969s] writing top-level names to ../../build/pypara_pkg1/pypara_pkg1.egg-info/top_level.txt
+[0.970s] reading manifest file '../../build/pypara_pkg1/pypara_pkg1.egg-info/SOURCES.txt'
+[0.970s] adding license file 'LICENSE'
+[0.970s] writing manifest file '../../build/pypara_pkg1/pypara_pkg1.egg-info/SOURCES.txt'
+[0.970s] running build
+[0.970s] running build_py
+[0.971s] running install
+[0.971s] running install_lib
+[0.971s] running install_data
+[0.971s] running install_egg_info
+[0.972s] removing '/home/hawx/ws1/install/pypara_pkg1/lib/python3.10/site-packages/pypara_pkg1-0.0.0-py3.10.egg-info' (and everything under it)
+[0.973s] Copying ../../build/pypara_pkg1/pypara_pkg1.egg-info to /home/hawx/ws1/install/pypara_pkg1/lib/python3.10/site-packages/pypara_pkg1-0.0.0-py3.10.egg-info
+[0.973s] running install_scripts
+[0.984s] Installing para_node1 script to /home/hawx/ws1/install/pypara_pkg1/lib/pypara_pkg1
+[0.984s] writing list of installed files to '/home/hawx/ws1/build/pypara_pkg1/install.log'
+[0.998s] Invoked command in '/home/hawx/ws1/src/pypara_pkg1' returned '0': PYTHONPATH=/home/hawx/ws1/build/pypara_pkg1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hawx/ws1/install/pypara_pkg1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pypara_pkg1 build --build-base /home/hawx/ws1/build/pypara_pkg1/build install --record /home/hawx/ws1/build/pypara_pkg1/install.log --single-version-externally-managed install_data

@@ -1,0 +1,34 @@
+[0.019s] Invoking command in '/home/hawx/ws1/build/interface_pkg1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hawx/ws1/install/pypara_pkg1:/home/hawx/ws1/install/py_pkg2:/home/hawx/ws1/install/py_pkg1:/home/hawx/ws1/install/pubsub_pkg1:/home/hawx/ws1/src/install/pypara_pkg1:/home/hawx/ws1/src/install/py_pkg2:/home/hawx/ws1/src/install/py_pkg1:/opt/ros/humble /usr/bin/cmake --build /home/hawx/ws1/build/interface_pkg1 -- -j32 -l32
+[0.448s] [35m[1mConsolidate compiler generated dependencies of target interface_pkg1__rosidl_generator_c[0m
+[0.448s] [  2%] Built target interface_pkg1__cpp
+[0.448s] [ 12%] Built target interface_pkg1__rosidl_generator_c
+[0.448s] [35m[1mConsolidate compiler generated dependencies of target interface_pkg1__rosidl_typesupport_cpp[0m
+[0.448s] [35m[1mConsolidate compiler generated dependencies of target interface_pkg1__rosidl_typesupport_fastrtps_cpp[0m
+[0.448s] [35m[1mConsolidate compiler generated dependencies of target interface_pkg1__rosidl_typesupport_introspection_cpp[0m
+[0.448s] [ 12%] Built target ament_cmake_python_copy_interface_pkg1
+[0.448s] [35m[1mConsolidate compiler generated dependencies of target interface_pkg1__rosidl_typesupport_fastrtps_c[0m
+[0.448s] [35m[1mConsolidate compiler generated dependencies of target interface_pkg1__rosidl_typesupport_introspection_c[0m
+[0.448s] [35m[1mConsolidate compiler generated dependencies of target interface_pkg1__rosidl_typesupport_c[0m
+[0.448s] [ 23%] Built target interface_pkg1__rosidl_typesupport_cpp
+[0.448s] [ 34%] Built target interface_pkg1__rosidl_typesupport_introspection_cpp
+[0.448s] [ 44%] Built target interface_pkg1__rosidl_typesupport_c
+[0.448s] [ 55%] Built target interface_pkg1__rosidl_typesupport_fastrtps_cpp
+[0.448s] [ 65%] Built target interface_pkg1__rosidl_typesupport_introspection_c
+[0.448s] [ 76%] Built target interface_pkg1__rosidl_typesupport_fastrtps_c
+[0.448s] [ 76%] Built target interface_pkg1
+[0.448s] [ 78%] Built target interface_pkg1__py
+[0.449s] [35m[1mConsolidate compiler generated dependencies of target interface_pkg1__rosidl_generator_py[0m
+[0.449s] [ 87%] Built target interface_pkg1__rosidl_generator_py
+[0.449s] [35m[1mConsolidate compiler generated dependencies of target interface_pkg1__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.449s] [35m[1mConsolidate compiler generated dependencies of target interface_pkg1__rosidl_typesupport_introspection_c__pyext[0m
+[0.449s] [35m[1mConsolidate compiler generated dependencies of target interface_pkg1__rosidl_typesupport_c__pyext[0m
+[0.449s] [ 91%] Built target interface_pkg1__rosidl_typesupport_fastrtps_c__pyext
+[0.449s] [100%] Built target interface_pkg1__rosidl_typesupport_introspection_c__pyext
+[0.449s] [100%] Built target interface_pkg1__rosidl_typesupport_c__pyext
+[0.449s] running egg_info
+[0.449s] writing interface_pkg1.egg-info/PKG-INFO
+[0.449s] writing dependency_links to interface_pkg1.egg-info/dependency_links.txt
+[0.449s] writing top-level names to interface_pkg1.egg-info/top_level.txt
+[0.449s] reading manifest file 'interface_pkg1.egg-info/SOURCES.txt'
+[0.449s] writing manifest file 'interface_pkg1.egg-info/SOURCES.txt'
+[0.449s] [100%] Built target ament_cmake_python_build_interface_pkg1_egg

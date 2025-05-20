@@ -1,0 +1,8 @@
+{
+  "package_name": "interface_pkg1",
+  "non_idl_tuples": [
+    "/home/hawx/ws1/src/interface_pkg1:msg/Message1.msg",
+    "/home/hawx/ws1/src/interface_pkg1:msg/Message2.msg",
+    "/home/hawx/ws1/src/interface_pkg1:srv/Service1.srv"
+  ]
+}

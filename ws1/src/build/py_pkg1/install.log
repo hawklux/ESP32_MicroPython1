@@ -1,0 +1,17 @@
+/home/hawx/ws1/src/install/py_pkg1/lib/python3.10/site-packages/py_pkg1/sub_node1.py
+/home/hawx/ws1/src/install/py_pkg1/lib/python3.10/site-packages/py_pkg1/__init__.py
+/home/hawx/ws1/src/install/py_pkg1/lib/python3.10/site-packages/py_pkg1/pub_node1.py
+/home/hawx/ws1/src/install/py_pkg1/lib/python3.10/site-packages/py_pkg1/__pycache__/sub_node1.cpython-310.pyc
+/home/hawx/ws1/src/install/py_pkg1/lib/python3.10/site-packages/py_pkg1/__pycache__/__init__.cpython-310.pyc
+/home/hawx/ws1/src/install/py_pkg1/lib/python3.10/site-packages/py_pkg1/__pycache__/pub_node1.cpython-310.pyc
+/home/hawx/ws1/src/install/py_pkg1/share/ament_index/resource_index/packages/py_pkg1
+/home/hawx/ws1/src/install/py_pkg1/share/py_pkg1/package.xml
+/home/hawx/ws1/src/install/py_pkg1/lib/python3.10/site-packages/py_pkg1-0.0.0-py3.10.egg-info/SOURCES.txt
+/home/hawx/ws1/src/install/py_pkg1/lib/python3.10/site-packages/py_pkg1-0.0.0-py3.10.egg-info/dependency_links.txt
+/home/hawx/ws1/src/install/py_pkg1/lib/python3.10/site-packages/py_pkg1-0.0.0-py3.10.egg-info/PKG-INFO
+/home/hawx/ws1/src/install/py_pkg1/lib/python3.10/site-packages/py_pkg1-0.0.0-py3.10.egg-info/entry_points.txt
+/home/hawx/ws1/src/install/py_pkg1/lib/python3.10/site-packages/py_pkg1-0.0.0-py3.10.egg-info/top_level.txt
+/home/hawx/ws1/src/install/py_pkg1/lib/python3.10/site-packages/py_pkg1-0.0.0-py3.10.egg-info/requires.txt
+/home/hawx/ws1/src/install/py_pkg1/lib/python3.10/site-packages/py_pkg1-0.0.0-py3.10.egg-info/zip-safe
+/home/hawx/ws1/src/install/py_pkg1/lib/py_pkg1/listener1
+/home/hawx/ws1/src/install/py_pkg1/lib/py_pkg1/talker1

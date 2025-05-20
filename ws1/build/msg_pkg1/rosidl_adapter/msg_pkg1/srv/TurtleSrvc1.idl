@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from msg_pkg1/srv/TurtleSrvc1.srv
+// generated code does not contain a copyright notice
+
+
+module msg_pkg1 {
+  module srv {
+    struct TurtleSrvc1_Request {
+      int64 num;
+    };
+    struct TurtleSrvc1_Response {
+      sequence<double> x;
+
+      sequence<double> y;
+
+      sequence<double> theta;
+    };
+  };
+};

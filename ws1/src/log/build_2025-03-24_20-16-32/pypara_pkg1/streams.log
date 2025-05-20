@@ -1,0 +1,38 @@
+[0.538s] Invoking command in '/home/hawx/ws1/src/pypara_pkg1': PYTHONPATH=/home/hawx/ws1/src/build/pypara_pkg1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hawx/ws1/src/install/pypara_pkg1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pypara_pkg1 build --build-base /home/hawx/ws1/src/build/pypara_pkg1/build install --record /home/hawx/ws1/src/build/pypara_pkg1/install.log --single-version-externally-managed install_data
+[0.650s] running egg_info
+[0.650s] creating ../build/pypara_pkg1/pypara_pkg1.egg-info
+[0.650s] writing ../build/pypara_pkg1/pypara_pkg1.egg-info/PKG-INFO
+[0.650s] writing dependency_links to ../build/pypara_pkg1/pypara_pkg1.egg-info/dependency_links.txt
+[0.650s] writing entry points to ../build/pypara_pkg1/pypara_pkg1.egg-info/entry_points.txt
+[0.650s] writing requirements to ../build/pypara_pkg1/pypara_pkg1.egg-info/requires.txt
+[0.650s] writing top-level names to ../build/pypara_pkg1/pypara_pkg1.egg-info/top_level.txt
+[0.650s] writing manifest file '../build/pypara_pkg1/pypara_pkg1.egg-info/SOURCES.txt'
+[0.651s] reading manifest file '../build/pypara_pkg1/pypara_pkg1.egg-info/SOURCES.txt'
+[0.651s] adding license file 'LICENSE'
+[0.651s] writing manifest file '../build/pypara_pkg1/pypara_pkg1.egg-info/SOURCES.txt'
+[0.652s] running build
+[0.652s] running build_py
+[0.652s] creating /home/hawx/ws1/src/build/pypara_pkg1/build
+[0.652s] creating /home/hawx/ws1/src/build/pypara_pkg1/build/lib
+[0.652s] creating /home/hawx/ws1/src/build/pypara_pkg1/build/lib/pypara_pkg1
+[0.652s] copying pypara_pkg1/__init__.py -> /home/hawx/ws1/src/build/pypara_pkg1/build/lib/pypara_pkg1
+[0.652s] copying pypara_pkg1/pypara_node1.py -> /home/hawx/ws1/src/build/pypara_pkg1/build/lib/pypara_pkg1
+[0.652s] running install
+[0.652s] running install_lib
+[0.653s] creating /home/hawx/ws1/src/install/pypara_pkg1/lib/python3.10/site-packages/pypara_pkg1
+[0.653s] copying /home/hawx/ws1/src/build/pypara_pkg1/build/lib/pypara_pkg1/__init__.py -> /home/hawx/ws1/src/install/pypara_pkg1/lib/python3.10/site-packages/pypara_pkg1
+[0.653s] copying /home/hawx/ws1/src/build/pypara_pkg1/build/lib/pypara_pkg1/pypara_node1.py -> /home/hawx/ws1/src/install/pypara_pkg1/lib/python3.10/site-packages/pypara_pkg1
+[0.653s] byte-compiling /home/hawx/ws1/src/install/pypara_pkg1/lib/python3.10/site-packages/pypara_pkg1/__init__.py to __init__.cpython-310.pyc
+[0.653s] byte-compiling /home/hawx/ws1/src/install/pypara_pkg1/lib/python3.10/site-packages/pypara_pkg1/pypara_node1.py to pypara_node1.cpython-310.pyc
+[0.653s] running install_data
+[0.653s] creating /home/hawx/ws1/src/install/pypara_pkg1/share/ament_index
+[0.653s] creating /home/hawx/ws1/src/install/pypara_pkg1/share/ament_index/resource_index
+[0.653s] creating /home/hawx/ws1/src/install/pypara_pkg1/share/ament_index/resource_index/packages
+[0.653s] copying resource/pypara_pkg1 -> /home/hawx/ws1/src/install/pypara_pkg1/share/ament_index/resource_index/packages
+[0.653s] copying package.xml -> /home/hawx/ws1/src/install/pypara_pkg1/share/pypara_pkg1
+[0.654s] running install_egg_info
+[0.654s] Copying ../build/pypara_pkg1/pypara_pkg1.egg-info to /home/hawx/ws1/src/install/pypara_pkg1/lib/python3.10/site-packages/pypara_pkg1-0.0.0-py3.10.egg-info
+[0.655s] running install_scripts
+[0.665s] Installing para_node1 script to /home/hawx/ws1/src/install/pypara_pkg1/lib/pypara_pkg1
+[0.665s] writing list of installed files to '/home/hawx/ws1/src/build/pypara_pkg1/install.log'
+[0.677s] Invoked command in '/home/hawx/ws1/src/pypara_pkg1' returned '0': PYTHONPATH=/home/hawx/ws1/src/build/pypara_pkg1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hawx/ws1/src/install/pypara_pkg1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pypara_pkg1 build --build-base /home/hawx/ws1/src/build/pypara_pkg1/build install --record /home/hawx/ws1/src/build/pypara_pkg1/install.log --single-version-externally-managed install_data

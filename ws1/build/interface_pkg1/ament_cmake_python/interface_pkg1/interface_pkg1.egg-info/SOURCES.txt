@@ -1,0 +1,11 @@
+setup.py
+interface_pkg1/__init__.py
+interface_pkg1.egg-info/PKG-INFO
+interface_pkg1.egg-info/SOURCES.txt
+interface_pkg1.egg-info/dependency_links.txt
+interface_pkg1.egg-info/top_level.txt
+interface_pkg1/msg/__init__.py
+interface_pkg1/msg/_message1.py
+interface_pkg1/msg/_message2.py
+interface_pkg1/srv/__init__.py
+interface_pkg1/srv/_service1.py

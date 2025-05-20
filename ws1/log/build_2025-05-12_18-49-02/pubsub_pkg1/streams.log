@@ -1,0 +1,36 @@
+[0.866s] Invoking command in '/home/hawx/ws1/src/pubsub_pkg1': PYTHONPATH=/home/hawx/ws1/build/pubsub_pkg1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub_pkg1 build --build-base /home/hawx/ws1/build/pubsub_pkg1/build install --record /home/hawx/ws1/build/pubsub_pkg1/install.log --single-version-externally-managed install_data
+[1.005s] running egg_info
+[1.006s] writing ../../build/pubsub_pkg1/pubsub_pkg1.egg-info/PKG-INFO
+[1.006s] writing dependency_links to ../../build/pubsub_pkg1/pubsub_pkg1.egg-info/dependency_links.txt
+[1.006s] writing entry points to ../../build/pubsub_pkg1/pubsub_pkg1.egg-info/entry_points.txt
+[1.006s] writing requirements to ../../build/pubsub_pkg1/pubsub_pkg1.egg-info/requires.txt
+[1.006s] writing top-level names to ../../build/pubsub_pkg1/pubsub_pkg1.egg-info/top_level.txt
+[1.007s] reading manifest file '../../build/pubsub_pkg1/pubsub_pkg1.egg-info/SOURCES.txt'
+[1.008s] writing manifest file '../../build/pubsub_pkg1/pubsub_pkg1.egg-info/SOURCES.txt'
+[1.008s] running build
+[1.008s] running build_py
+[1.008s] running install
+[1.008s] running install_lib
+[1.009s] running install_data
+[1.009s] copying /home/hawx/ws1/src/pubsub_pkg1/launch/teleop3.launch.py -> /home/hawx/ws1/install/pubsub_pkg1/share/pubsub_pkg1/launch
+[1.010s] running install_egg_info
+[1.011s] removing '/home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1-0.0.0-py3.10.egg-info' (and everything under it)
+[1.011s] Copying ../../build/pubsub_pkg1/pubsub_pkg1.egg-info to /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1-0.0.0-py3.10.egg-info
+[1.011s] running install_scripts
+[1.023s] Installing act_thread_srvr1 script to /home/hawx/ws1/install/pubsub_pkg1/lib/pubsub_pkg1
+[1.023s] Installing act_thread_srvr2 script to /home/hawx/ws1/install/pubsub_pkg1/lib/pubsub_pkg1
+[1.023s] Installing act_thread_srvr3 script to /home/hawx/ws1/install/pubsub_pkg1/lib/pubsub_pkg1
+[1.023s] Installing action_mthread1 script to /home/hawx/ws1/install/pubsub_pkg1/lib/pubsub_pkg1
+[1.023s] Installing action_srvr1 script to /home/hawx/ws1/install/pubsub_pkg1/lib/pubsub_pkg1
+[1.023s] Installing action_srvr2 script to /home/hawx/ws1/install/pubsub_pkg1/lib/pubsub_pkg1
+[1.023s] Installing pub_node1 script to /home/hawx/ws1/install/pubsub_pkg1/lib/pubsub_pkg1
+[1.024s] Installing sub_node1 script to /home/hawx/ws1/install/pubsub_pkg1/lib/pubsub_pkg1
+[1.024s] Installing turtle_msg1 script to /home/hawx/ws1/install/pubsub_pkg1/lib/pubsub_pkg1
+[1.024s] Installing turtle_msg2 script to /home/hawx/ws1/install/pubsub_pkg1/lib/pubsub_pkg1
+[1.024s] Installing turtle_msg3 script to /home/hawx/ws1/install/pubsub_pkg1/lib/pubsub_pkg1
+[1.024s] Installing turtle_pub1 script to /home/hawx/ws1/install/pubsub_pkg1/lib/pubsub_pkg1
+[1.024s] Installing turtle_srvr1 script to /home/hawx/ws1/install/pubsub_pkg1/lib/pubsub_pkg1
+[1.024s] Installing turtle_srvr2 script to /home/hawx/ws1/install/pubsub_pkg1/lib/pubsub_pkg1
+[1.024s] Installing turtle_srvr3 script to /home/hawx/ws1/install/pubsub_pkg1/lib/pubsub_pkg1
+[1.024s] writing list of installed files to '/home/hawx/ws1/build/pubsub_pkg1/install.log'
+[1.048s] Invoked command in '/home/hawx/ws1/src/pubsub_pkg1' returned '0': PYTHONPATH=/home/hawx/ws1/build/pubsub_pkg1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub_pkg1 build --build-base /home/hawx/ws1/build/pubsub_pkg1/build install --record /home/hawx/ws1/build/pubsub_pkg1/install.log --single-version-externally-managed install_data

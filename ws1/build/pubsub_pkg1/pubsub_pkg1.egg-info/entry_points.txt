@@ -1,0 +1,17 @@
+[console_scripts]
+act_thread_srvr1 = pubsub_pkg1.act_thread_srvr1:main
+act_thread_srvr2 = pubsub_pkg1.act_thread_srvr2:main
+act_thread_srvr3 = pubsub_pkg1.act_thread_srvr3:main
+action_mthread1 = pubsub_pkg1.action_mthread1:main
+action_srvr1 = pubsub_pkg1.action_srvr1:main
+action_srvr2 = pubsub_pkg1.action_srvr2:main
+pub_node1 = pubsub_pkg1.pub_node1:main
+sub_node1 = pubsub_pkg1.sub_node1:main
+turtle_msg1 = pubsub_pkg1.turtle_msg1:main
+turtle_msg2 = pubsub_pkg1.turtle_msg2:main
+turtle_msg3 = pubsub_pkg1.turtle_msg3:main
+turtle_pub1 = pubsub_pkg1.turtle_pub1:main
+turtle_srvr1 = pubsub_pkg1.turtle_srvr1:main
+turtle_srvr2 = pubsub_pkg1.turtle_srvr2:main
+turtle_srvr3 = pubsub_pkg1.turtle_srvr3:main
+

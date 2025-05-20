@@ -1,0 +1,34 @@
+[0.017s] Invoking command in '/home/hawx/ws1/build/msg_pkg1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hawx/ws1/install/pypara_pkg1:/home/hawx/ws1/install/py_pkg2:/home/hawx/ws1/install/py_pkg1:/home/hawx/ws1/install/pubsub_pkg1:/home/hawx/ws1/src/install/pypara_pkg1:/home/hawx/ws1/src/install/py_pkg2:/home/hawx/ws1/src/install/py_pkg1:/opt/ros/humble /usr/bin/cmake --build /home/hawx/ws1/build/msg_pkg1 -- -j32 -l32
+[0.446s] [35m[1mConsolidate compiler generated dependencies of target msg_pkg1__rosidl_generator_c[0m
+[0.446s] [  2%] Built target msg_pkg1__cpp
+[0.446s] [ 12%] Built target msg_pkg1__rosidl_generator_c
+[0.446s] [35m[1mConsolidate compiler generated dependencies of target msg_pkg1__rosidl_typesupport_cpp[0m
+[0.446s] [35m[1mConsolidate compiler generated dependencies of target msg_pkg1__rosidl_typesupport_fastrtps_cpp[0m
+[0.446s] [35m[1mConsolidate compiler generated dependencies of target msg_pkg1__rosidl_typesupport_introspection_cpp[0m
+[0.446s] [ 12%] Built target ament_cmake_python_copy_msg_pkg1
+[0.446s] [35m[1mConsolidate compiler generated dependencies of target msg_pkg1__rosidl_typesupport_fastrtps_c[0m
+[0.446s] [35m[1mConsolidate compiler generated dependencies of target msg_pkg1__rosidl_typesupport_c[0m
+[0.446s] [35m[1mConsolidate compiler generated dependencies of target msg_pkg1__rosidl_typesupport_introspection_c[0m
+[0.446s] [ 23%] Built target msg_pkg1__rosidl_typesupport_cpp
+[0.446s] [ 44%] Built target msg_pkg1__rosidl_typesupport_c
+[0.446s] [ 44%] Built target msg_pkg1__rosidl_typesupport_introspection_c
+[0.446s] [ 55%] Built target msg_pkg1__rosidl_typesupport_introspection_cpp
+[0.446s] [ 65%] Built target msg_pkg1__rosidl_typesupport_fastrtps_cpp
+[0.446s] [ 76%] Built target msg_pkg1__rosidl_typesupport_fastrtps_c
+[0.446s] [ 76%] Built target msg_pkg1
+[0.446s] [ 78%] Built target msg_pkg1__py
+[0.446s] [35m[1mConsolidate compiler generated dependencies of target msg_pkg1__rosidl_generator_py[0m
+[0.446s] [ 87%] Built target msg_pkg1__rosidl_generator_py
+[0.447s] [35m[1mConsolidate compiler generated dependencies of target msg_pkg1__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.447s] [35m[1mConsolidate compiler generated dependencies of target msg_pkg1__rosidl_typesupport_c__pyext[0m
+[0.447s] [35m[1mConsolidate compiler generated dependencies of target msg_pkg1__rosidl_typesupport_introspection_c__pyext[0m
+[0.447s] [ 91%] Built target msg_pkg1__rosidl_typesupport_fastrtps_c__pyext
+[0.447s] [ 95%] Built target msg_pkg1__rosidl_typesupport_c__pyext
+[0.447s] [100%] Built target msg_pkg1__rosidl_typesupport_introspection_c__pyext
+[0.447s] running egg_info
+[0.447s] writing msg_pkg1.egg-info/PKG-INFO
+[0.447s] writing dependency_links to msg_pkg1.egg-info/dependency_links.txt
+[0.447s] writing top-level names to msg_pkg1.egg-info/top_level.txt
+[0.447s] reading manifest file 'msg_pkg1.egg-info/SOURCES.txt'
+[0.447s] writing manifest file 'msg_pkg1.egg-info/SOURCES.txt'
+[0.447s] [100%] Built target ament_cmake_python_build_msg_pkg1_egg

@@ -1,0 +1,8 @@
+{
+  "package_name": "msg_pkg1",
+  "non_idl_tuples": [
+    "/home/hawx/ws1/src/msg_pkg1:msg/Msg1.msg",
+    "/home/hawx/ws1/src/msg_pkg1:srv/TurtleSrvc1.srv",
+    "/home/hawx/ws1/src/msg_pkg1:action/Action1.action"
+  ]
+}

@@ -1,0 +1,93 @@
+[0.828s] Invoking command in '/home/hawx/ws1/src/pubsub_pkg1': PYTHONPATH=/home/hawx/ws1/build/pubsub_pkg1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub_pkg1 build --build-base /home/hawx/ws1/build/pubsub_pkg1/build install --record /home/hawx/ws1/build/pubsub_pkg1/install.log --single-version-externally-managed install_data
+[0.959s] running egg_info
+[0.959s] creating ../../build/pubsub_pkg1/pubsub_pkg1.egg-info
+[0.960s] writing ../../build/pubsub_pkg1/pubsub_pkg1.egg-info/PKG-INFO
+[0.960s] writing dependency_links to ../../build/pubsub_pkg1/pubsub_pkg1.egg-info/dependency_links.txt
+[0.960s] writing entry points to ../../build/pubsub_pkg1/pubsub_pkg1.egg-info/entry_points.txt
+[0.960s] writing requirements to ../../build/pubsub_pkg1/pubsub_pkg1.egg-info/requires.txt
+[0.960s] writing top-level names to ../../build/pubsub_pkg1/pubsub_pkg1.egg-info/top_level.txt
+[0.960s] writing manifest file '../../build/pubsub_pkg1/pubsub_pkg1.egg-info/SOURCES.txt'
+[0.961s] reading manifest file '../../build/pubsub_pkg1/pubsub_pkg1.egg-info/SOURCES.txt'
+[0.961s] writing manifest file '../../build/pubsub_pkg1/pubsub_pkg1.egg-info/SOURCES.txt'
+[0.961s] running build
+[0.961s] running build_py
+[0.961s] creating /home/hawx/ws1/build/pubsub_pkg1/build
+[0.961s] creating /home/hawx/ws1/build/pubsub_pkg1/build/lib
+[0.961s] creating /home/hawx/ws1/build/pubsub_pkg1/build/lib/pubsub_pkg1
+[0.961s] copying pubsub_pkg1/act_thread_srvr3.py -> /home/hawx/ws1/build/pubsub_pkg1/build/lib/pubsub_pkg1
+[0.962s] copying pubsub_pkg1/turtle_msg3.py -> /home/hawx/ws1/build/pubsub_pkg1/build/lib/pubsub_pkg1
+[0.962s] copying pubsub_pkg1/turtle_msg2.py -> /home/hawx/ws1/build/pubsub_pkg1/build/lib/pubsub_pkg1
+[0.962s] copying pubsub_pkg1/turtle_srvr3.py -> /home/hawx/ws1/build/pubsub_pkg1/build/lib/pubsub_pkg1
+[0.962s] copying pubsub_pkg1/action_mthread1.py -> /home/hawx/ws1/build/pubsub_pkg1/build/lib/pubsub_pkg1
+[0.962s] copying pubsub_pkg1/action_srvr1.py -> /home/hawx/ws1/build/pubsub_pkg1/build/lib/pubsub_pkg1
+[0.962s] copying pubsub_pkg1/turtle_srvr1.py -> /home/hawx/ws1/build/pubsub_pkg1/build/lib/pubsub_pkg1
+[0.962s] copying pubsub_pkg1/act_thread_srvr2.py -> /home/hawx/ws1/build/pubsub_pkg1/build/lib/pubsub_pkg1
+[0.962s] copying pubsub_pkg1/sub_node1.py -> /home/hawx/ws1/build/pubsub_pkg1/build/lib/pubsub_pkg1
+[0.962s] copying pubsub_pkg1/turtle_msg1.py -> /home/hawx/ws1/build/pubsub_pkg1/build/lib/pubsub_pkg1
+[0.962s] copying pubsub_pkg1/turtle_srvr2.py -> /home/hawx/ws1/build/pubsub_pkg1/build/lib/pubsub_pkg1
+[0.962s] copying pubsub_pkg1/__init__.py -> /home/hawx/ws1/build/pubsub_pkg1/build/lib/pubsub_pkg1
+[0.962s] copying pubsub_pkg1/pub_node1.py -> /home/hawx/ws1/build/pubsub_pkg1/build/lib/pubsub_pkg1
+[0.962s] copying pubsub_pkg1/action_srvr2.py -> /home/hawx/ws1/build/pubsub_pkg1/build/lib/pubsub_pkg1
+[0.962s] copying pubsub_pkg1/act_thread_srvr1.py -> /home/hawx/ws1/build/pubsub_pkg1/build/lib/pubsub_pkg1
+[0.962s] copying pubsub_pkg1/turtle_pub1.py -> /home/hawx/ws1/build/pubsub_pkg1/build/lib/pubsub_pkg1
+[0.962s] running install
+[0.963s] running install_lib
+[0.963s] creating /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1
+[0.963s] copying /home/hawx/ws1/build/pubsub_pkg1/build/lib/pubsub_pkg1/act_thread_srvr3.py -> /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1
+[0.963s] copying /home/hawx/ws1/build/pubsub_pkg1/build/lib/pubsub_pkg1/turtle_msg3.py -> /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1
+[0.963s] copying /home/hawx/ws1/build/pubsub_pkg1/build/lib/pubsub_pkg1/turtle_msg2.py -> /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1
+[0.963s] copying /home/hawx/ws1/build/pubsub_pkg1/build/lib/pubsub_pkg1/turtle_srvr3.py -> /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1
+[0.963s] copying /home/hawx/ws1/build/pubsub_pkg1/build/lib/pubsub_pkg1/action_mthread1.py -> /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1
+[0.963s] copying /home/hawx/ws1/build/pubsub_pkg1/build/lib/pubsub_pkg1/action_srvr1.py -> /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1
+[0.963s] copying /home/hawx/ws1/build/pubsub_pkg1/build/lib/pubsub_pkg1/turtle_srvr1.py -> /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1
+[0.963s] copying /home/hawx/ws1/build/pubsub_pkg1/build/lib/pubsub_pkg1/act_thread_srvr2.py -> /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1
+[0.963s] copying /home/hawx/ws1/build/pubsub_pkg1/build/lib/pubsub_pkg1/sub_node1.py -> /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1
+[0.963s] copying /home/hawx/ws1/build/pubsub_pkg1/build/lib/pubsub_pkg1/turtle_msg1.py -> /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1
+[0.963s] copying /home/hawx/ws1/build/pubsub_pkg1/build/lib/pubsub_pkg1/turtle_srvr2.py -> /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1
+[0.964s] copying /home/hawx/ws1/build/pubsub_pkg1/build/lib/pubsub_pkg1/__init__.py -> /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1
+[0.964s] copying /home/hawx/ws1/build/pubsub_pkg1/build/lib/pubsub_pkg1/pub_node1.py -> /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1
+[0.964s] copying /home/hawx/ws1/build/pubsub_pkg1/build/lib/pubsub_pkg1/action_srvr2.py -> /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1
+[0.964s] copying /home/hawx/ws1/build/pubsub_pkg1/build/lib/pubsub_pkg1/act_thread_srvr1.py -> /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1
+[0.964s] copying /home/hawx/ws1/build/pubsub_pkg1/build/lib/pubsub_pkg1/turtle_pub1.py -> /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1
+[0.964s] byte-compiling /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1/act_thread_srvr3.py to act_thread_srvr3.cpython-310.pyc
+[0.965s] byte-compiling /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1/turtle_msg3.py to turtle_msg3.cpython-310.pyc
+[0.965s] byte-compiling /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1/turtle_msg2.py to turtle_msg2.cpython-310.pyc
+[0.965s] byte-compiling /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1/turtle_srvr3.py to turtle_srvr3.cpython-310.pyc
+[0.965s] byte-compiling /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1/action_mthread1.py to action_mthread1.cpython-310.pyc
+[0.966s] byte-compiling /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1/action_srvr1.py to action_srvr1.cpython-310.pyc
+[0.966s] byte-compiling /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1/turtle_srvr1.py to turtle_srvr1.cpython-310.pyc
+[0.966s] byte-compiling /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1/act_thread_srvr2.py to act_thread_srvr2.cpython-310.pyc
+[0.967s] byte-compiling /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1/sub_node1.py to sub_node1.cpython-310.pyc
+[0.967s] byte-compiling /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1/turtle_msg1.py to turtle_msg1.cpython-310.pyc
+[0.967s] byte-compiling /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1/turtle_srvr2.py to turtle_srvr2.cpython-310.pyc
+[0.967s] byte-compiling /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1/__init__.py to __init__.cpython-310.pyc
+[0.967s] byte-compiling /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1/pub_node1.py to pub_node1.cpython-310.pyc
+[0.967s] byte-compiling /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1/action_srvr2.py to action_srvr2.cpython-310.pyc
+[0.967s] byte-compiling /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1/act_thread_srvr1.py to act_thread_srvr1.cpython-310.pyc
+[0.968s] byte-compiling /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1/turtle_pub1.py to turtle_pub1.cpython-310.pyc
+[0.968s] running install_data
+[0.968s] creating /home/hawx/ws1/install/pubsub_pkg1/share/ament_index
+[0.968s] creating /home/hawx/ws1/install/pubsub_pkg1/share/ament_index/resource_index
+[0.968s] creating /home/hawx/ws1/install/pubsub_pkg1/share/ament_index/resource_index/packages
+[0.968s] copying resource/pubsub_pkg1 -> /home/hawx/ws1/install/pubsub_pkg1/share/ament_index/resource_index/packages
+[0.968s] copying package.xml -> /home/hawx/ws1/install/pubsub_pkg1/share/pubsub_pkg1
+[0.968s] running install_egg_info
+[0.969s] Copying ../../build/pubsub_pkg1/pubsub_pkg1.egg-info to /home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages/pubsub_pkg1-0.0.0-py3.10.egg-info
+[0.970s] running install_scripts
+[0.981s] Installing act_thread_srvr1 script to /home/hawx/ws1/install/pubsub_pkg1/lib/pubsub_pkg1
+[0.981s] Installing act_thread_srvr2 script to /home/hawx/ws1/install/pubsub_pkg1/lib/pubsub_pkg1
+[0.981s] Installing act_thread_srvr3 script to /home/hawx/ws1/install/pubsub_pkg1/lib/pubsub_pkg1
+[0.981s] Installing action_mthread1 script to /home/hawx/ws1/install/pubsub_pkg1/lib/pubsub_pkg1
+[0.981s] Installing action_srvr1 script to /home/hawx/ws1/install/pubsub_pkg1/lib/pubsub_pkg1
+[0.981s] Installing action_srvr2 script to /home/hawx/ws1/install/pubsub_pkg1/lib/pubsub_pkg1
+[0.981s] Installing pub_node1 script to /home/hawx/ws1/install/pubsub_pkg1/lib/pubsub_pkg1
+[0.981s] Installing sub_node1 script to /home/hawx/ws1/install/pubsub_pkg1/lib/pubsub_pkg1
+[0.981s] Installing turtle_msg1 script to /home/hawx/ws1/install/pubsub_pkg1/lib/pubsub_pkg1
+[0.981s] Installing turtle_msg2 script to /home/hawx/ws1/install/pubsub_pkg1/lib/pubsub_pkg1
+[0.981s] Installing turtle_msg3 script to /home/hawx/ws1/install/pubsub_pkg1/lib/pubsub_pkg1
+[0.981s] Installing turtle_pub1 script to /home/hawx/ws1/install/pubsub_pkg1/lib/pubsub_pkg1
+[0.981s] Installing turtle_srvr1 script to /home/hawx/ws1/install/pubsub_pkg1/lib/pubsub_pkg1
+[0.981s] Installing turtle_srvr2 script to /home/hawx/ws1/install/pubsub_pkg1/lib/pubsub_pkg1
+[0.981s] Installing turtle_srvr3 script to /home/hawx/ws1/install/pubsub_pkg1/lib/pubsub_pkg1
+[0.982s] writing list of installed files to '/home/hawx/ws1/build/pubsub_pkg1/install.log'
+[0.997s] Invoked command in '/home/hawx/ws1/src/pubsub_pkg1' returned '0': PYTHONPATH=/home/hawx/ws1/build/pubsub_pkg1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hawx/ws1/install/pubsub_pkg1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub_pkg1 build --build-base /home/hawx/ws1/build/pubsub_pkg1/build install --record /home/hawx/ws1/build/pubsub_pkg1/install.log --single-version-externally-managed install_data
