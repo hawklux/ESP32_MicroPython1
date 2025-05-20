@@ -1,0 +1,8 @@
+[console_scripts]
+arm1_joint_pub1 = ardu_pkg1.arm1_joint_pub1:main
+arm1_pub1 = ardu_pkg1.arm1_pub1:main
+arm1_sub1 = ardu_pkg1.arm1_sub1:main
+servo_con1 = ardu_pkg1.servo_con1:main
+servo_pub1 = ardu_pkg1.servo_pub1:main
+servo_sub1 = ardu_pkg1.servo_sub1:main
+

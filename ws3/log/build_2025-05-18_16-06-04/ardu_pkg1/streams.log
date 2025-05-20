@@ -1,0 +1,26 @@
+[0.375s] Invoking command in '/home/hawx/ws3/src/ardu_pkg1': PYTHONPATH=/home/hawx/ws3/build/ardu_pkg1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hawx/ws3/install/ardu_pkg1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ardu_pkg1 build --build-base /home/hawx/ws3/build/ardu_pkg1/build install --record /home/hawx/ws3/build/ardu_pkg1/install.log --single-version-externally-managed install_data
+[0.524s] running egg_info
+[0.525s] writing ../../build/ardu_pkg1/ardu_pkg1.egg-info/PKG-INFO
+[0.525s] writing dependency_links to ../../build/ardu_pkg1/ardu_pkg1.egg-info/dependency_links.txt
+[0.525s] writing entry points to ../../build/ardu_pkg1/ardu_pkg1.egg-info/entry_points.txt
+[0.525s] writing requirements to ../../build/ardu_pkg1/ardu_pkg1.egg-info/requires.txt
+[0.525s] writing top-level names to ../../build/ardu_pkg1/ardu_pkg1.egg-info/top_level.txt
+[0.526s] reading manifest file '../../build/ardu_pkg1/ardu_pkg1.egg-info/SOURCES.txt'
+[0.526s] writing manifest file '../../build/ardu_pkg1/ardu_pkg1.egg-info/SOURCES.txt'
+[0.526s] running build
+[0.526s] running build_py
+[0.526s] running install
+[0.527s] running install_lib
+[0.527s] running install_data
+[0.527s] copying /home/hawx/ws3/src/ardu_pkg1/launch/test1.launch.py -> /home/hawx/ws3/install/ardu_pkg1/share/ardu_pkg1/launch
+[0.527s] running install_egg_info
+[0.528s] removing '/home/hawx/ws3/install/ardu_pkg1/lib/python3.10/site-packages/ardu_pkg1-0.0.0-py3.10.egg-info' (and everything under it)
+[0.529s] Copying ../../build/ardu_pkg1/ardu_pkg1.egg-info to /home/hawx/ws3/install/ardu_pkg1/lib/python3.10/site-packages/ardu_pkg1-0.0.0-py3.10.egg-info
+[0.529s] running install_scripts
+[0.539s] Installing arm1_pub1 script to /home/hawx/ws3/install/ardu_pkg1/lib/ardu_pkg1
+[0.539s] Installing arm1_sub1 script to /home/hawx/ws3/install/ardu_pkg1/lib/ardu_pkg1
+[0.539s] Installing servo_con1 script to /home/hawx/ws3/install/ardu_pkg1/lib/ardu_pkg1
+[0.539s] Installing servo_pub1 script to /home/hawx/ws3/install/ardu_pkg1/lib/ardu_pkg1
+[0.540s] Installing servo_sub1 script to /home/hawx/ws3/install/ardu_pkg1/lib/ardu_pkg1
+[0.540s] writing list of installed files to '/home/hawx/ws3/build/ardu_pkg1/install.log'
+[0.551s] Invoked command in '/home/hawx/ws3/src/ardu_pkg1' returned '0': PYTHONPATH=/home/hawx/ws3/build/ardu_pkg1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hawx/ws3/install/ardu_pkg1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ardu_pkg1 build --build-base /home/hawx/ws3/build/ardu_pkg1/build install --record /home/hawx/ws3/build/ardu_pkg1/install.log --single-version-externally-managed install_data

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="robot_arm1">
+
+  <!-- 파라미터 -->
+  <xacro:property name="link_length" value="0.3"/>
+
+  <!-- 매크로 정의 -->
+  <xacro:macro name="make_link" params="name length parent">
+    <link name="${name}">
+      <visual>
+        <geometry>
+          <box size="${length} 0.05 0.05"/>
+        </geometry>
+      </visual>
+    </link>
+
+    <joint name="${name}_joint" type="revolute">
+      <parent link="${parent}"/>
+      <child link="${name}"/>
+      <origin xyz="${length} 0 0" rpy="0 0 0"/>
+      <axis xyz="0 0 1"/>
+      <limit lower="-1.57" upper="1.57" effort="1.0" velocity="1.0"/>
+    </joint>
+  </xacro:macro>
+
+  <!-- 루트 링크 -->
+  <link name="base_link"/>
+
+  <!-- 매크로 호출 -->
+  <xacro:make_link name="link1" length="${link_length}" parent="base_link"/>
+  <xacro:make_link name="link2" length="${link_length}" parent="link1"/>
+
+</robot>

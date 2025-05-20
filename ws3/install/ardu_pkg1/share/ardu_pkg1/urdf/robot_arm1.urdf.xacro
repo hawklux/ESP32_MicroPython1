@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<robot name="robot_arm1" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <!-- 기본 링크 -->
+  <link name="base_link">
+    <visual>
+      <geometry><cylinder length="0.1" radius="0.1"/></geometry>
+      <material name="red"><color rgba="1 0 0 1"/></material>
+    </visual>
+  </link>
+
+  <!-- 링크와 조인트 반복 -->
+  <xacro:macro name="arm_segment" params="index parent_link length">
+    <link name="link_${index}">
+      <visual>
+        <geometry><cylinder length="${length}" radius="0.1"/></geometry>
+        <origin xyz="0 0 ${length/2}" rpy="0 0 0"/>
+        <material name="blue"><color rgba="0 0 1 1"/></material>
+      </visual>
+    </link>
+
+    <joint name="joint_${index}" type="revolute">
+      <parent link="${parent_link}"/>
+      <child link="link_${index}"/>
+      <origin xyz="0 0 ${length}" rpy="0 0 0"/>
+      <axis xyz="0 0 1"/>
+      <limit lower="-3.14" upper="3.14" effort="1.0" velocity="1.0"/>
+    </joint>
+  </xacro:macro>
+
+  <!-- 4개의 조인트 생성 -->
+  <xacro:arm_segment index="1" parent_link="base_link" length="0.3"/>
+  <xacro:arm_segment index="2" parent_link="link_1" length="0.3"/>
+  <xacro:arm_segment index="3" parent_link="link_2" length="0.3"/>
+  <xacro:arm_segment index="4" parent_link="link_3" length="0.3"/>
+
+</robot>
