@@ -1,0 +1,6 @@
+{
+  "package_name": "action_interface_pkg1",
+  "non_idl_tuples": [
+    "/home/hawx/ws2/src/action_interface_pkg1:action/Fibo_act1.action"
+  ]
+}
